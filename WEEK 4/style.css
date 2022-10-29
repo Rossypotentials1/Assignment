@@ -1,0 +1,119 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+          background-color: white;
+          color: white;
+      }
+  
+      @media screen and (max-width:1440px)  {
+        .main{
+          background-color: navy;
+          color: white;
+        }
+        
+      }
+      
+      @media screen and (min-width:440px) and (min-width:375px) {
+        .main{
+          background-color: hsl(0, 0%, 95%);
+          color: white;
+        }
+      }
+      * {
+       width:100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+      }
+      .main{
+        /* background-color:white; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin: 40px;
+        padding: 40px;
+        position: sticky;
+      }
+      .flexContainer {
+        width: 700px;
+        padding: 12px;
+      border-radius: 5px;
+        display: flex;
+        flex-direction:row;
+       
+        
+       
+      }
+  
+      .flexItem{
+        justify-items: center;
+        
+        height: 250px;
+        padding: 20px;
+        font-size: 15px;
+        font-weight: 'Lexend Deca',sans-serif;
+      
+       
+      }
+  
+      .flexItem1 {
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 4px;
+       
+      }
+      .flexItem2 {
+        background-color: hsl(184, 100%, 22%);
+       
+      }
+  
+      .flexItem3 {
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 5px;
+      
+      }
+      .header{color: hsl(0, 0%, 95%);
+      font-family: 'Big Shoulders Display',cursive;}
+  
+      p{
+          padding: 10px;
+          color:hsla(0, 0%, 100%, 0.75);
+      }
+        button{
+          padding: 10px 15px;
+          border-radius: 20px;
+          font-weight: bold;
+          margin-top: 10px;
+          width: 50%;
+          color: hsl(0, 0%, 95%);
+         
+          
+        }
+        button:hover{
+          cursor: pointer;
+          background-color: azure;
+          color: black;
+          
+        }
+        .sed{background-color: hsl(31, 77%, 52%) ;}
+        .suv{background-color: hsl(184, 100%, 22%);}
+        .lux{background-color: hsl(179, 100%, 13%);}
+        .btn{background-color: #408080;
+              width: 20%;
+              position:relative;
+             left:40%;
+             bottom:100px;
+            }
+       img{
+        float: left;
+        position: relative;
+        left: 45px;
+        width: 40px;
+        
+       }
+       body{
+        font-family:-lexend Deca;
+       }
